@@ -1,0 +1,31 @@
+@import "../utils/colorsv";
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: $brandPrimary;
+  user-select: none;
+
+  .homeIcon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .title {
+    color: $brandHighlight;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .welcome {
+    color: $brandViolet;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

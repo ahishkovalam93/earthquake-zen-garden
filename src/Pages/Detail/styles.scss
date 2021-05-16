@@ -1,0 +1,11 @@
+.detailComponents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .detailGrid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 50%;
+  }
+}

@@ -1,0 +1,40 @@
+@import "./utils//colorsv.scss";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+}
+
+.detail {
+  color: $brandGrey;
+  font-weight: 525;
+  font-size: 14px;
+  padding: 5px;
+  text-align: left;
+}
+
+.title {
+  color: $brandBlue;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.titlePage {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}

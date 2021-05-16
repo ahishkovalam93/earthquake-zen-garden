@@ -1,0 +1,26 @@
+.profileComponents {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .column {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 50%;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .profileImage {
+    width: 200px;
+  }
+
+  .profileDetails {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
